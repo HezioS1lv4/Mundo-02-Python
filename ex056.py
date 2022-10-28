@@ -16,7 +16,7 @@ for p in range(1, 5):
     if sexo in 'Mn' and idade > maioridadehomem:
         maioridadehomem = idade
         nomevelho = nome
-    if sexo in 'Ff' and idade > 20:
+    if sexo in 'Ff' and idade < 20:
         totmulher20 += 1
 
 
