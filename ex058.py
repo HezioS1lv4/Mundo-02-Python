@@ -14,6 +14,6 @@ while not acertou:
     else:
         if jogador < pc:
             print('Mais...')
-        elif jogador < pc:
+        elif jogador > pc:
             print('Menos...')
 print('Acertou com {} palpites!'.format(palpites))
